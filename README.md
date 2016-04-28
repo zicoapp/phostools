@@ -4,11 +4,9 @@
 
 以 pexels.com 站点为例
 
-执行 pexels.py，爬取 XXX 站点图片到本地(服务器)
+- 执行 pexels.py，爬取 XXX 站点图片到本地(服务器)。就是普通的解析，提取链接下载保存。下载直接用了 aria2c 命令
 
-就是普通的解析，提取链接下载保存。下载直接用了 aria2c 命令
-
-执行 sync_new.py，将本地爬取的图片信息同步到 Leancloud 数据库
+- 执行 sync_new.py，将本地爬取的图片信息同步到 Leancloud 数据库
 
 ```
 1. 遍历待同步的图片
@@ -19,7 +17,7 @@
 6. 保存 meta 信息到 leancloud
 ```
 
-执行 ./qrsync sync.json，将本地图片上传到七牛服务器
+- 执行 ./qrsync sync.json，将本地图片上传到七牛服务器
 
 ---
 
