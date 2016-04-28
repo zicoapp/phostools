@@ -1,0 +1,7 @@
+{
+    "src":          "/Users/xuanqi/Pictures/phoscc/pexels",
+    "dest":         "qiniu:access_key=<ACCESS_KEY>&secret_key=<SECRET_KEY>&bucket=yuntu&key_prefix=photo/",
+    "deletable":    0,
+    "debug_level":  1
+}
+
