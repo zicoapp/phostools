@@ -1,8 +1,6 @@
 # PHOS_TOOLS
 
-## 目前图片图库流程
-
-以 pexels.com 站点为例
+目前图片入库流程，以 pexels.com 站点为例
 
 - 执行 pexels.py，爬取 XXX 站点图片到本地(服务器)。就是普通的解析，提取链接下载保存。下载直接用了 aria2c 命令
 
